@@ -1,6 +1,5 @@
 # Docker Compose로 localhost Nginx 리버스 프록시 구성
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 내부에 Docker로 2개의 컨테이너를 올린다. 각각 Nginx(reverse proxy)와 Nginx(서버) 컨테이너를 올린다.
 
 reverse proxy 서버는 80번 포트를 open하고 뒷단의 nginx 서버는 8080 포트를 오픈한다. 크롬에서 localhost를 입력하면 reverse proxy 서버가 뒷단의 nginx의 index.html를 보여주는 것이 목표이다.
